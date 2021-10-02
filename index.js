@@ -13,6 +13,6 @@ app.use(express.json());
 
 app.use('/api/productos', require('./routes/producto'));
 
-app.listen(4000, () => {
+app.listen(80,() => {
     console.log('El servidor esta corriendo perfectamente')
 })
